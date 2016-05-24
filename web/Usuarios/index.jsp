@@ -12,7 +12,7 @@
     <title>Starter Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="Templates/CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="../Templates/CSS/bootstrap.min.css" rel="stylesheet">
 
   </head>
 
@@ -40,11 +40,12 @@
     </nav>
       <br><br><br><br>
     <div class="container">
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-success"><a href="Usuarios/index.jsp">Usuarios</a></li>
-            <li class="list-group-item list-group-item-info"><a href="Ciudades/index.jsp">Ciudades</a></li>
-            <li class="list-group-item list-group-item-warning"><a href="Reportes/index.jsp">Reportes</a></li>
-    </ul>
+        <div class="panel panel-default">
+  <div class="panel-body">
+    Tabla Usuarios
+  </div>
+  <div class="panel-footer">Usuarios</div>
+</div>
 
         
         

@@ -41,9 +41,10 @@
       <br><br><br><br>
     <div class="container">
         <ul class="list-group">
-            <li class="list-group-item list-group-item-success"><a href="Usuarios/index.jsp">Usuarios</a></li>
-            <li class="list-group-item list-group-item-info"><a href="Ciudades/index.jsp">Ciudades</a></li>
-            <li class="list-group-item list-group-item-warning"><a href="Reportes/index.jsp">Reportes</a></li>
+  <li class="list-group-item list-group-item-success"><<a href=""</li>
+  <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+  <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+  <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
     </ul>
 
         
