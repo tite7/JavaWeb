@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>FUNCIONA</h1>
+        <h1>FUNCIONA pero esta modificado</h1>
     </body>
 </html>
