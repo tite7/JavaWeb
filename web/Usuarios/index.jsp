@@ -1,3 +1,5 @@
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -43,6 +45,55 @@
         <div class="panel panel-default">
   <div class="panel-body">
     Tabla Usuarios
+    <br>
+    <a href="Crear.jsp" class="btn btn-primary">Nuevo Usuario</a>
+    <br>
+    <table class="table table-condensed table-hover table-bordered">
+        <thead>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Primer Apellido</th>
+        <th>Segundo Apellido</th>
+        <th>Acciones</th>
+        </thead>
+        <tbody>
+            <%
+                Connection con=null;
+                String url="jdbc:mysql://localhost:3306/javaee";
+                String user="root";
+                String pass="";
+                String driver="com.mysql.jdbc.Driver";
+                try{
+                    Class.forName(driver);
+                    con=DriverManager.getConnection(url, user, pass);
+                    out.println("Conexion Establecida!!");
+                }catch(Exception ex){
+                    out.println("Error de Conexion: " + ex.getMessage());
+                }
+            %>
+            <tr>
+                <td>1</td>
+                <td>Juan</td>
+                <td>Lopez</td>
+                <td>Villar</td>
+                <td><a href="" class="btn btn-danger">Eliminar</a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Juan</td>
+                <td>Lopez</td>
+                <td>Villar</td>
+                <td><a href="" class="btn btn-info">Eliminar</a><a href="" class="btn btn-success">Editar</a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Juan</td>
+                <td>Lopez</td>
+                <td>Villar</td>
+                <td><a href="" class="btn btn-primary">Eliminar</a></td>
+            </tr>
+        </tbody>
+    </table>
   </div>
   <div class="panel-footer">Usuarios</div>
 </div>

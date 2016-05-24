@@ -45,7 +45,7 @@
     Tabla Ciudades
   </div>
   <div class="panel-footer">Ciudades</div>
-  <button type="button" class="btn btn-primary"><a href="../Usuarios/index.jsp">Mostrar Ciudades</a></button>
+  <button type="button" class="btn btn-primary">Mostrar Ciudades</a></button>
 </div>
 
         

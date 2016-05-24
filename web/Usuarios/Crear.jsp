@@ -12,7 +12,7 @@
     <title>Starter Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="Templates/CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="../Templates/CSS/bootstrap.min.css" rel="stylesheet">
 
   </head>
 
@@ -61,6 +61,6 @@
     
     <script src="../../dist/JS/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="Templates/JS/ie10-viewport-bug-workaround.js"></script>
+    <script src="../Templates/JS/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
